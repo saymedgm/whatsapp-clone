@@ -1,0 +1,15 @@
+useAuthState() in react return an object if user is signed in else returns null
+api key is used to access google services
+Through state provider we add user into data layer while sign in 
+
+useState() is used for local state management
+useReducer() is used for global state management
+
+Router is used when we want app to loop to the url
+
+If the document changes in the (back-end) Firestore database you will need to call get() again to see the change.
+(used when we constantly retreive data)
+
+Inside index.js we have use unregister method
+Is we want our app to work offline and load faster we can change
+unregister() to register()
